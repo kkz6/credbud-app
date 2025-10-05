@@ -16,7 +16,7 @@
 	<string>$(TeamIdentifierPrefix)com.rafaelsoh.dime</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.rafaelsoh.dime</string>
+		<string>group.gigcodes.credbud</string>
 	</array>
 </dict>
 </plist>

@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
-		<string>iCloud.com.rafaelsoh.dime</string>
+		<string>iCloud.container.gigcodes.credbud</string>
 	</array>
 	<key>com.apple.developer.icloud-services</key>
 	<array>

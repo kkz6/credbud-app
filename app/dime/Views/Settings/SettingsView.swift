@@ -28,20 +28,6 @@ struct SettingsView: View {
     }
   }
 
-  @AppStorage("activeIcon", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime"))
-  var activeIcon: String = "AppIcon"
-  var appIconString: String {
-    if activeIcon == "AppIcon1" {
-      return "v2.0"
-    } else if activeIcon == "AppIcon2" {
-      return "Unicorn"
-    } else if activeIcon == "AppIcon3" {
-      return "v1.5"
-    } else {
-      return "O.G."
-    }
-  }
-
   @AppStorage("firstWeekday", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime"))
   var firstWeekday: Int = 1
   var firstWeekdayString: String {
@@ -258,12 +244,6 @@ struct SettingsView: View {
                 SettingsRowView(
                   systemImage: "circle.righthalf.filled", title: "Theme", colour: 100,
                   optionalText: colourSchemeString)
-              }
-
-              NavigationLink(destination: SettingsAppIconView()) {
-                SettingsRowView(
-                  systemImage: "app.badge.fill", title: "App Icon", colour: 101,
-                  optionalText: appIconString)
               }
 
               ToggleRow(
