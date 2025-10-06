@@ -1,8 +1,8 @@
 //
 //  ImportDataView.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 21/8/23.
+//  Created by Karthick K on 21/8/23.
 //
 
 import ConfettiSwiftUI
@@ -114,7 +114,7 @@ struct ImportDataView: View {
         InstructionHeadings(title: "Assign date column", subtitle: "Select a column from your import that corresponds to the dates of your transactions."),
         InstructionHeadings(title: "Assign amount column", subtitle: "Select a column from your import that corresponds to the values of your transactions."),
         InstructionHeadings(title: "Indicate date format", subtitle: "Referencing this article, state the format of the dates in the assigned column."),
-        InstructionHeadings(title: "Link categories", subtitle: "Match values found in the 'Category' column to the corresponding categories in Dime."),
+        InstructionHeadings(title: "Link categories", subtitle: "Match values found in the 'Category' column to the corresponding categories in credbud."),
         InstructionHeadings(title: "Processing import", subtitle: "Please wait while we process your new transactions.")
     ]
 

@@ -1,8 +1,8 @@
 //
 //  TemplateTransactionView.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 4/9/23.
+//  Created by Karthick K on 4/9/23.
 //
 
 import Combine

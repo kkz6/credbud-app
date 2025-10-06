@@ -2,7 +2,7 @@
 //  InsightsView.swift
 //  xpenz
 //
-//  Created by Rafael Soh on 20/5/22.
+//  Created by Karthick K on 20/5/22.
 //
 
 import Foundation

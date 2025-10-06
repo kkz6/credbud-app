@@ -1,8 +1,8 @@
 //
 //  SettingsUpcomingView.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 5/11/23.
+//  Created by Karthick K on 5/11/23.
 //
 
 import Foundation

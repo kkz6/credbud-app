@@ -1,15 +1,15 @@
 //
 //  ShortcutsProvider.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 5/8/23.
+//  Created by Karthick K on 5/8/23.
 //
 
 import AppIntents
 import Foundation
 
 @available(iOS 16.4, *)
-struct DimeShortcuts: AppShortcutsProvider {
+struct credbudShortcuts: AppShortcutsProvider {
     static var appShortcuts: [AppShortcut] {
         AppShortcut(
             intent: NewTransactionIntent(),

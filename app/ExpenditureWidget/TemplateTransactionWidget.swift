@@ -2,7 +2,7 @@
 //  TemplateTransactionWidget.swift
 //  ExpenditureWidgetExtension
 //
-//  Created by Rafael Soh on 11/9/23.
+//  Created by Karthick K on 11/9/23.
 //
 
 // import WidgetKit
@@ -170,7 +170,7 @@
 //
 //            }
 //            .padding(0.5)
-//            .widgetURL(URL(string: "dimeapp://newExpense"))
+//            .widgetURL(URL(string: "credbudapp://newExpense"))
 //        }
 //
 //    }

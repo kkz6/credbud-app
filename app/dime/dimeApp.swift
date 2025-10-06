@@ -1,14 +1,14 @@
 //
-//  dimeApp.swift
-//  dime
+//  credbudApp.swift
+//  credbud
 //
-//  Created by Rafael Soh on 11/7/22.
+//  Created by Karthick K on 11/7/22.
 //
 
 import SwiftUI
 
 @main
-struct dimeApp: App {
+struct credbudApp: App {
     @StateObject var dataController: DataController
     @StateObject var unlockManager: UnlockManager
     @StateObject var appLockVM = AppLockViewModel()

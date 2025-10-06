@@ -1,8 +1,8 @@
 //
 //  BudgetWidget.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 17/8/22.
+//  Created by Karthick K on 17/8/22.
 //
 
 import SwiftUI
@@ -284,7 +284,7 @@ struct BudgetWidgetEntryView: View {
                 .containerBackground(for: .widget) {
                     Color.PrimaryBackground
                 }
-                .widgetURL(URL(string: "dimeapp://budget?budget=\(entry.budget.name)"))
+                .widgetURL(URL(string: "credbudapp://budget?budget=\(entry.budget.name)"))
             } else {
                 VStack(spacing: 12) {
                     HStack(alignment: .top) {
@@ -375,7 +375,7 @@ struct BudgetWidgetEntryView: View {
                 .padding(15)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.PrimaryBackground)
-                .widgetURL(URL(string: "dimeapp://budget?budget=\(entry.budget.name)"))
+                .widgetURL(URL(string: "credbudapp://budget?budget=\(entry.budget.name)"))
             }
         }
     }

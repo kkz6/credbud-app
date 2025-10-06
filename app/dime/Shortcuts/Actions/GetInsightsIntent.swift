@@ -1,8 +1,8 @@
 //
 //  GetInsightsIntent.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 5/8/23.
+//  Created by Karthick K on 5/8/23.
 //
 
 import AppIntents

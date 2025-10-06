@@ -1,12 +1,12 @@
 /* 
   Localizable.strings
-  dime
+  credbud
 
-  Created by Rafael Soh on 6/3/23.
+  Created by Karthick K on 6/3/23.
   
 */
 
-"dime_name" = "dime";
+"credbud_name" = "credbud";
 "welcome_header_1" = "Отслеживайте свои финансы";
 "welcome_subtitle_1" = "Добавляйте записи легко и быстро";
 "welcome_header_2" = "Анализируйте свои расходы";
@@ -218,7 +218,7 @@
 "Report Bug" = "Сообщить об Ошибке";
 "Rate on App Store" = "Оценить в App Store";
 "Share with Friends" = "Поделиться с Друзьями";
-"Follow Dime on Twitter" = "Dime в Twitter";
+"Follow credbud on Twitter" = "credbud в Twitter";
 "Follow Rafael on Instagram" = "Рафаэль в Instagram";
 "Light" = "Светлая";
 "Dark" = "Тёмная";
@@ -258,7 +258,7 @@
 "Remember to input your expenses today." = "Не забудьте ввести свои расходы сегодня.";
 "Loading" = "Загрузка";
 "Unable to load tip options, please try again later 🥲" = "Не удалось загрузить варианты чаевых. Повторите попытку позже. 🥲";
-"Hey! Dime was built by a solo student developer, and is intended to be completely free-of-charge, with no paywalls or ads. If you enjoy using Dime and want to support development, please consider a small tip." = "Эй! Dime был создан студеном, разработчиком-одиночкой и является полностью бесплатным, без платного доступа или рекламы. Если вам нравится использовать Dime и вы хотите помочь разработке, поддержите копеечкой.";
+"Hey! credbud was built by a solo student developer, and is intended to be completely free-of-charge, with no paywalls or ads. If you enjoy using credbud and want to support development, please consider a small tip." = "Эй! credbud был создан студеном, разработчиком-одиночкой и является полностью бесплатным, без платного доступа или рекламы. Если вам нравится использовать credbud и вы хотите помочь разработке, поддержите копеечкой.";
 "Tip failed to go through, please try again!" = "Копеечка не дошла, попробуйте еще раз!";
 "Thanks a million, %@ Rafael" = "Огромное спасибо, с любовью, Рафаэль";
 "Have a great day ahead!" = "Отличного дня!";

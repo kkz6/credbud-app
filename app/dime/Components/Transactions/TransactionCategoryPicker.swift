@@ -1,8 +1,8 @@
 //
 //  TransactionCategoryPicker.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 20/11/23.
+//  Created by Karthick K on 20/11/23.
 //
 
 import Foundation

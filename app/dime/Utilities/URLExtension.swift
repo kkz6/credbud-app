@@ -1,8 +1,8 @@
 //
 //  URLExtension.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 9/9/22.
+//  Created by Karthick K on 9/9/22.
 //
 
 import Foundation

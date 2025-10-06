@@ -2,7 +2,7 @@
 //  PowerCategory.swift
 //  Bonsai
 //
-//  Created by Rafael Soh on 6/6/22.
+//  Created by Karthick K on 6/6/22.
 //
 
 import Foundation

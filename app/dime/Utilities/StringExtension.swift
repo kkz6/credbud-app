@@ -2,7 +2,7 @@
 //  StringExtension.swift
 //  xpenz
 //
-//  Created by Rafael Soh on 16/5/22.
+//  Created by Karthick K on 16/5/22.
 //
 
 import Foundation

@@ -26,7 +26,7 @@
 		5321E1DF291FE2D000D5A931 /* CategoryCreationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321E1DB291FE02B00D5A931 /* CategoryCreationErrors.swift */; };
 		5321E1E0291FE2D000D5A931 /* CategoryCreationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321E1DB291FE02B00D5A931 /* CategoryCreationErrors.swift */; };
 		5324985528A64DA7007B34D1 /* RecentTransactionsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324985428A64DA7007B34D1 /* RecentTransactionsWidget.swift */; };
-		5327D287287C697400F76ADF /* dimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327D286287C697400F76ADF /* dimeApp.swift */; };
+		5327D287287C697400F76ADF /* credbudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327D286287C697400F76ADF /* credbudApp.swift */; };
 		5327D28E287C697C00F76ADF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5327D28D287C697C00F76ADF /* Preview Assets.xcassets */; };
 		5327D295287C698900F76ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5327D294287C698900F76ADF /* Assets.xcassets */; };
 		5327D2AD287C6AD200F76ADF /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327D2AC287C6AD200F76ADF /* DataController.swift */; };
@@ -224,8 +224,8 @@
 		5313EC6F28ACE941000EAB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5321E1DB291FE02B00D5A931 /* CategoryCreationErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCreationErrors.swift; sourceTree = "<group>"; };
 		5324985428A64DA7007B34D1 /* RecentTransactionsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionsWidget.swift; sourceTree = "<group>"; };
-		5327D283287C697400F76ADF /* dime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5327D286287C697400F76ADF /* dimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dimeApp.swift; sourceTree = "<group>"; };
+		5327D283287C697400F76ADF /* credbud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = credbud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5327D286287C697400F76ADF /* credbudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = credbudApp.swift; sourceTree = "<group>"; };
 		5327D28D287C697C00F76ADF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5327D294287C698900F76ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5327D2AC287C6AD200F76ADF /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
@@ -253,7 +253,7 @@
 		5327D2D5287C6B5E00F76ADF /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		5327D2DF287C6B7C00F76ADF /* DeviceModels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DeviceModels.json; sourceTree = "<group>"; };
 		5327D2E7287C6DC200F76ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		5327D2E8287C6DF700F76ADF /* dime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dime.entitlements; sourceTree = "<group>"; };
+		5327D2E8287C6DF700F76ADF /* credbud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = credbud.entitlements; sourceTree = "<group>"; };
 		532C58BB2A629C3900DA2C81 /* NewBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBudgetView.swift; sourceTree = "<group>"; };
 		53326B2B2ADC3C8D0027C693 /* TestDragToAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragToAdd.swift; sourceTree = "<group>"; };
 		533D1C3B2AE7BB6900894764 /* DynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicType.swift; sourceTree = "<group>"; };
@@ -282,7 +282,7 @@
 		53A4147828B6625D008C30E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53A4147A28B66265008C30E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		53A4147C28B7C70D008C30E7 /* AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
-		53A839B928D33840006F227C /* UnlockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UnlockManager.swift; path = dime/Views/UnlockManager.swift; sourceTree = SOURCE_ROOT; };
+		53A839B928D33840006F227C /* UnlockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UnlockManager.swift; path = credbud/Views/UnlockManager.swift; sourceTree = SOURCE_ROOT; };
 		53A839BC28D35738006F227C /* SKProduct-LocalizedPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct-LocalizedPrice.swift"; sourceTree = "<group>"; };
 		53A839C028D732E1006F227C /* TabBarHiding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHiding.swift; sourceTree = "<group>"; };
 		53B1D18A288ED7E400E28062 /* ExpenditureWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExpenditureWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -323,7 +323,7 @@
 		53E832E42B0A2CAF000CBBA0 /* InsightsSummaryBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsSummaryBlock.swift; sourceTree = "<group>"; };
 		53E832E62B0B067B000CBBA0 /* TransactionCategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategoryPicker.swift; sourceTree = "<group>"; };
 		53EB931028A65F670026BE28 /* ExpenditureWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExpenditureWidgetExtension.entitlements; sourceTree = "<group>"; };
-		7DD7E8672E924BF2003ED4FB /* dimeRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dimeRelease.entitlements; sourceTree = "<group>"; };
+		7DD7E8672E924BF2003ED4FB /* credbudRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = credbudRelease.entitlements; sourceTree = "<group>"; };
 		AE5B3D782AEE99E000AB364E /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
 		AEADEF6E2AE94DA3006EB614 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		AEADEF702AE94DA8006EB614 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
@@ -417,7 +417,7 @@
 				D63B20462D8728C300CAFB20 /* Localizable.strings */,
 				D63B20482D8728C300CAFB20 /* Localizable.stringsdict */,
 				53EB931028A65F670026BE28 /* ExpenditureWidgetExtension.entitlements */,
-				5327D285287C697400F76ADF /* dime */,
+				5327D285287C697400F76ADF /* credbud */,
 				53B1D18F288ED7E500E28062 /* ExpenditureWidget */,
 				5313EC5E28ACE941000EAB0C /* BudgetIntent */,
 				5313EC6928ACE941000EAB0C /* BudgetIntentUI */,
@@ -429,7 +429,7 @@
 		5327D284287C697400F76ADF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5327D283287C697400F76ADF /* dime.app */,
+				5327D283287C697400F76ADF /* credbud.app */,
 				53B1D18A288ED7E400E28062 /* ExpenditureWidgetExtension.appex */,
 				5313EC5B28ACE941000EAB0C /* BudgetIntent.appex */,
 				5313EC6628ACE941000EAB0C /* BudgetIntentUI.appex */,
@@ -437,16 +437,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5327D285287C697400F76ADF /* dime */ = {
+		5327D285287C697400F76ADF /* credbud */ = {
 			isa = PBXGroup;
 			children = (
-				7DD7E8672E924BF2003ED4FB /* dimeRelease.entitlements */,
-				5327D2E8287C6DF700F76ADF /* dime.entitlements */,
+				7DD7E8672E924BF2003ED4FB /* credbudRelease.entitlements */,
+				5327D2E8287C6DF700F76ADF /* credbud.entitlements */,
 				5327D2E7287C6DC200F76ADF /* Info.plist */,
 				53756F622AC3C25E0065D0C2 /* sample.csv */,
 				53A4147828B6625D008C30E7 /* AppDelegate.swift */,
 				53A4147A28B66265008C30E7 /* SceneDelegate.swift */,
-				5327D286287C697400F76ADF /* dimeApp.swift */,
+				5327D286287C697400F76ADF /* credbudApp.swift */,
 				5327D2DF287C6B7C00F76ADF /* DeviceModels.json */,
 				5327D2CA287C6B4700F76ADF /* ContentView.swift */,
 				5327D294287C698900F76ADF /* Assets.xcassets */,
@@ -458,7 +458,7 @@
 				5327D28C287C697C00F76ADF /* Preview Content */,
 				AE30A1522AE7D95200E516B3 /* Components */,
 			);
-			path = dime;
+			path = credbud;
 			sourceTree = "<group>";
 		};
 		5327D28C287C697C00F76ADF /* Preview Content */ = {
@@ -704,9 +704,9 @@
 			productReference = 5313EC6628ACE941000EAB0C /* BudgetIntentUI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		5327D282287C697400F76ADF /* dime */ = {
+		5327D282287C697400F76ADF /* credbud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5327D291287C697C00F76ADF /* Build configuration list for PBXNativeTarget "dime" */;
+			buildConfigurationList = 5327D291287C697C00F76ADF /* Build configuration list for PBXNativeTarget "credbud" */;
 			buildPhases = (
 				5327D27F287C697400F76ADF /* Sources */,
 				5327D280287C697400F76ADF /* Frameworks */,
@@ -722,7 +722,7 @@
 				5313EC7128ACE941000EAB0C /* PBXTargetDependency */,
 				5313EC7428ACE941000EAB0C /* PBXTargetDependency */,
 			);
-			name = dime;
+			name = credbud;
 			packageProductDependencies = (
 				5327D2E5287C6CC300F76ADF /* Popovers */,
 				53B1D1A7289A60D500E28062 /* CrookedText */,
@@ -733,8 +733,8 @@
 				D6A4DE1F2D61744400F7F751 /* SwiftUIIntrospect */,
 				D6A4DE232D61744400F7F751 /* SwiftUIIntrospect-Static */,
 			);
-			productName = dime;
-			productReference = 5327D283287C697400F76ADF /* dime.app */;
+			productName = credbud;
+			productReference = 5327D283287C697400F76ADF /* credbud.app */;
 			productType = "com.apple.product-type.application";
 		};
 		53B1D189288ED7E400E28062 /* ExpenditureWidgetExtension */ = {
@@ -778,7 +778,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5327D27E287C697400F76ADF /* Build configuration list for PBXProject "dime" */;
+			buildConfigurationList = 5327D27E287C697400F76ADF /* Build configuration list for PBXProject "credbud" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -800,7 +800,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5327D282287C697400F76ADF /* dime */,
+				5327D282287C697400F76ADF /* credbud */,
 				53B1D189288ED7E400E28062 /* ExpenditureWidgetExtension */,
 				5313EC5A28ACE941000EAB0C /* BudgetIntent */,
 				5313EC6528ACE941000EAB0C /* BudgetIntentUI */,
@@ -971,7 +971,7 @@
 				5327D2BA287C6AFB00F76ADF /* ViewExtension.swift in Sources */,
 				5327D2DB287C6B5F00F76ADF /* LogView.swift in Sources */,
 				5362CF322A92750800244744 /* ImportDataView.swift in Sources */,
-				5327D287287C697400F76ADF /* dimeApp.swift in Sources */,
+				5327D287287C697400F76ADF /* credbudApp.swift in Sources */,
 				53A4147728B3B559008C30E7 /* WelcomeSheetView.swift in Sources */,
 				53D6BDD82AF73CFC00F5728E /* SettingsEraseView.swift in Sources */,
 				53D6BDD62AF73CE400F5728E /* SettingsUpcomingView.swift in Sources */,
@@ -1322,14 +1322,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = dime/dime.entitlements;
+				CODE_SIGN_ENTITLEMENTS = credbud/credbud.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"dime/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"credbud/Preview Content\"";
 				DEVELOPMENT_TEAM = GRYXBU4M62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = dime/Info.plist;
+				INFOPLIST_FILE = credbud/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CredBud;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
@@ -1362,14 +1362,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = dime/dimeRelease.entitlements;
+				CODE_SIGN_ENTITLEMENTS = credbud/credbudRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"dime/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"credbud/Preview Content\"";
 				DEVELOPMENT_TEAM = GRYXBU4M62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = dime/Info.plist;
+				INFOPLIST_FILE = credbud/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CredBud;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
@@ -1479,7 +1479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5327D27E287C697400F76ADF /* Build configuration list for PBXProject "dime" */ = {
+		5327D27E287C697400F76ADF /* Build configuration list for PBXProject "credbud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5327D28F287C697C00F76ADF /* Debug */,
@@ -1488,7 +1488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5327D291287C697C00F76ADF /* Build configuration list for PBXNativeTarget "dime" */ = {
+		5327D291287C697C00F76ADF /* Build configuration list for PBXNativeTarget "credbud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5327D292287C697C00F76ADF /* Debug */,

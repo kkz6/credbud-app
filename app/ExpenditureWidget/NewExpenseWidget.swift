@@ -2,7 +2,7 @@
 //  NewExpenseWidget.swift
 //  ExpenditureWidgetExtension
 //
-//  Created by Rafael Soh on 9/9/22.
+//  Created by Karthick K on 9/9/22.
 //
 
 import SwiftUI
@@ -78,7 +78,7 @@ struct NewExpenseWidgetEntryView: View {
                     .background(Color.white, in: RoundedRectangle(cornerRadius: 4, style: .continuous))
                     .padding(.horizontal, 9)
             }
-            .widgetURL(URL(string: "dimeapp://newExpense"))
+            .widgetURL(URL(string: "credbudapp://newExpense"))
             .containerBackground(for: .widget) {
                 AccessoryWidgetBackground()
             }
@@ -96,7 +96,7 @@ struct NewExpenseWidgetEntryView: View {
                     .padding(.horizontal, 9)
             }
             .padding(0.5)
-            .widgetURL(URL(string: "dimeapp://newExpense"))
+            .widgetURL(URL(string: "credbudapp://newExpense"))
         }
     }
 }

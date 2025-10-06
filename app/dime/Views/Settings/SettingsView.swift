@@ -2,7 +2,7 @@
 //  SettingsView.swift
 //  xpenz
 //
-//  Created by Rafael Soh on 20/5/22.
+//  Created by Karthick K on 20/5/22.
 //
 
 import Combine
@@ -405,11 +405,11 @@ struct SettingsView: View {
               }
 
               Button {
-                if let url = URL(string: "https://www.x.com/budgetwithdime") {
+                if let url = URL(string: "https://www.x.com/budgetwithcredbud") {
                   UIApplication.shared.open(url)
                 }
               } label: {
-                SettingsRowView(systemImage: "bird.fill", title: "Follow Dime on X", colour: 128)
+                SettingsRowView(systemImage: "bird.fill", title: "Follow credbud on X", colour: 128)
                   .frame(maxWidth: .infinity)
               }
 
@@ -692,7 +692,7 @@ struct TipJarAlert: View {
             }
 
             Text(
-              "Hey! Dime was built by a solo student developer, and is intended to be completely free-of-charge, with no paywalls or ads. If you enjoy using Dime and want to support development, please consider a small tip."
+              "Hey! credbud was built by a solo student developer, and is intended to be completely free-of-charge, with no paywalls or ads. If you enjoy using credbud and want to support development, please consider a small tip."
             )
             .font(.system(.callout, design: .rounded).weight(.medium))
 

@@ -1,8 +1,8 @@
 //
 //  InsightsSummaryBlock.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 19/11/23.
+//  Created by Karthick K on 19/11/23.
 //
 
 import Foundation

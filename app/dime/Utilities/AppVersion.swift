@@ -1,8 +1,8 @@
 //
 //  AppVersion.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 25/8/22.
+//  Created by Karthick K on 25/8/22.
 //
 
 import Foundation

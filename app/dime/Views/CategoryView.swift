@@ -2,7 +2,7 @@
 //  CategoryView.swift
 //  xpenz
 //
-//  Created by Rafael Soh on 10/5/22.
+//  Created by Karthick K on 10/5/22.
 //
 
 import Combine

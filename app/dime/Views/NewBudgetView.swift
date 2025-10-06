@@ -1,8 +1,8 @@
 //
 //  NewBudgetView.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 15/7/23.
+//  Created by Karthick K on 15/7/23.
 //
 
 import SwiftUI

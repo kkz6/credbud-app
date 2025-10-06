@@ -1,8 +1,8 @@
 //
 //  SingleTransactionPhotoView.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 30/9/23.
+//  Created by Karthick K on 30/9/23.
 //
 
 import Foundation

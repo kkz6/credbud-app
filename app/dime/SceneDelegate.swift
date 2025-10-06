@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 24/8/22.
+//  Created by Karthick K on 24/8/22.
 //
 
 import SwiftUI

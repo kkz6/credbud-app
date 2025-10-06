@@ -1,8 +1,8 @@
 //
 //  SKProduct-LocalizedPrice.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 15/9/22.
+//  Created by Karthick K on 15/9/22.
 //
 
 import StoreKit

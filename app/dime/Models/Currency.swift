@@ -1,8 +1,8 @@
 //
 //  Currency.swift
-//  dime
+//  credbud
 //
-//  Created by Rafael Soh on 5/9/22.
+//  Created by Karthick K on 5/9/22.
 //
 
 import Foundation
